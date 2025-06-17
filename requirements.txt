@@ -2,3 +2,9 @@ torch
 tensorflow
 opencv
 lxml
+torchvision
+torchaudio
+opencv-python
+pillow
+tqdm
+matplotlib
