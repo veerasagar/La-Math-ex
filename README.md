@@ -72,7 +72,7 @@ dataset_path = downloader.download_mathwriting_dataset()
 
 ## Package Structure
 
-```
+```bash
 la_math_ex/
 ├── __init__.py          # Main package imports
 ├── data/                # Data processing modules
@@ -97,35 +97,45 @@ la_math_ex/
 ## Core Components
 
 ### InkProcessor
+
 Handles reading and processing InkML files:
+
 - Read InkML files with stroke and annotation data
 - Normalize ink coordinates
 - Calculate bounding boxes
 - Get stroke and point statistics
 
 ### MathOCRModel
+
 Mathematical OCR using TrOCR models:
+
 - Convert handwritten math images to LaTeX
 - Support for batch processing
 - Confidence scoring
 - Model evaluation utilities
 
 ### DrawingInterface
+
 Interactive drawing capabilities:
+
 - HTML5 canvas-based drawing pad
 - Customizable brush settings
 - Save drawings as images
 - Google Colab integration
 
 ### InkVisualizer
+
 Visualization tools for ink data:
+
 - Display single and multiple inks
 - Plot stroke statistics
 - Visualize bounding boxes
 - Save visualizations
 
 ### DataDownloader
+
 Dataset management utilities:
+
 - Download MathWriting dataset
 - Extract and organize data
 - List dataset contents
